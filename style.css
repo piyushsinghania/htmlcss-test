@@ -79,7 +79,6 @@ body{
 .title{
     align-self: center;
     font-family: 'Alata', sans-serif;
-    
 }
 
 .title h1{
@@ -274,7 +273,7 @@ body{
 }
 
 .divider{
-    background-color: #dde0e8;
+    background-color: #f1f1f1;
     width: 2px;
     height: 20px;
     align-self: center;
