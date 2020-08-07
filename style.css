@@ -58,9 +58,9 @@ body{
 }
 
 .nav{
-	display: flex;
+    display: flex;
     flex-direction: row;
-	padding: 20px;
+    padding: 20px;
     justify-content: space-between;
     border-bottom: 1.5px solid #ebeef7;
     position: fixed;
@@ -70,10 +70,10 @@ body{
 }
 
 .nav1{
-	display: flex;
-	flex-direction: row;
-	width: 350px ;
-	justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    width: 350px ;
+    justify-content: space-between;
 }
 
 .title{
@@ -86,10 +86,10 @@ body{
 }
 
 .pipe{
-	background-color: #dde0e8;
-	width:2px;
-	height: 26px;
-	align-self: center;
+    background-color: #dde0e8;
+    width:2px;
+    height: 26px;
+    align-self: center;
 }
 
 .nav1 .pronum{
@@ -104,7 +104,7 @@ body{
 }
 
 .searchbar{
-	border-radius: 18px;
+    border-radius: 18px;
     border: 0.1px solid #e6ebf5;
     width: 230px;
     height: 22px;
@@ -143,10 +143,10 @@ body{
 }
 
 .nav2{
-	display: flex;
-	flex-direction: row;
-	width: 304px;
-	justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    width: 304px;
+    justify-content: space-between;
 }
 
 .nav2 i{
@@ -154,7 +154,7 @@ body{
 }
 
 .new{
-	background-color: #335dff;
+    background-color: #335dff;
     color: white;
     height: 52px;
     width: 52px;
@@ -166,17 +166,17 @@ body{
 }
 
 .profile{
-	display: flex;
-	flex-direction: row;
-	width: 170px;
+    display: flex;
+    flex-direction: row;
+    width: 170px;
     justify-content: space-between;
     font-family: 'Alata', sans-serif;
 }
 
 .profile-item{
-	display: flex;
-	flex-direction: column;
-	height: 48px;
+    display: flex;
+    flex-direction: column;
+    height: 48px;
     justify-content: space-around;
     
 }
@@ -188,15 +188,15 @@ body{
 }
 
 .profile-item2{
-	display: flex;
-	flex-direction: row;
-	justify-content: space-around;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
     width: 70px;
     align-items: baseline;
 }
 
 .profile-pic{
-	width: 48px;
+    width: 48px;
     height: 48px;
     background-color: #fdbfbf;
     border-radius: 16px; 
@@ -429,7 +429,6 @@ body{
     display: flex;
     justify-content: flex-start;
     width: fit-content;
-    
 }
 
 .per{
