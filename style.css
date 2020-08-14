@@ -9,8 +9,9 @@ body{
     /*display: grid;*/
     position: fixed;
     top: 0;
-    height: 768px;
+    height: 100%;
     width: 160px;
+    overflow: auto;
     font-family: 'Alata', sans-serif;
     /*grid-template-rows: repeat(8, 50px);
     grid-gap: 15px;*/
@@ -301,7 +302,7 @@ body{
     background-color: #f8f9fd;
     position: relative;
     top: 184px;
-    height: 900px;
+    height: 100%;
     border-top-left-radius: 25px;
     display: grid;
     grid-template-columns: repeat(4, 230px);
@@ -483,12 +484,7 @@ body{
     display: inline;
     margin-left: 14px;
 }
-
 .small{
     height: 38px;
     width: 38px;
 }
-
-
-
-

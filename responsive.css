@@ -1,0 +1,107 @@
+@media screen and (max-width: 600px){
+
+    body{
+        margin: 0;
+        padding: 0;
+    }
+
+    #side-bar{
+        width: 100%;
+        height: auto;
+        position: relative;
+        box-sizing: border-box;
+    }
+
+    #sidebar-head{
+        margin-bottom: 0;
+        text-align: center;
+    }
+
+    .nav{
+        position: relative; 
+        flex-direction: column;
+        width:100%;
+        text-align: center;
+        height: 227px;
+        box-sizing: border-box;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .nav1{
+        width: 100%
+    }
+
+    .searchbar{
+        width: 100%;
+        height: 34px;
+        padding: 10px 7px 5px;
+    }
+
+    .searchbar input[type=text]{
+        width: 80%;
+        font-size: 20px;
+        height: 80%;
+       
+    }
+
+    .searchbar button{
+        height: 100%;
+        width: 43px;
+    }
+
+    .nav2{
+        width: 100%;
+    }
+
+    #sub-nav{
+        position: relative;
+        flex-direction: column;
+        box-sizing: border-box;
+        width: 100%;
+        height: 124px;
+        padding: 15px;
+        top: 20px;
+    }
+
+    .sub-nav1{
+        width: 100%;
+    }
+
+    #side-bar a{
+        float: left;
+        font-size: 8px;
+    }
+
+    div.left-margin{
+        margin-left: 0;
+    }
+
+    .main-box{
+        padding: 15px;
+        position: relative;
+        top: 50px;
+    }
+
+    .main{
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        box-sizing: border-box;
+        overflow: hidden;
+        overflow-x: scroll;
+        margin-left: 0px;
+        position: static;
+        border-radius: 25px;
+    }
+    
+    #side-bar a{
+        text-align:center;
+        float:none;
+    }
+
+    .main-item{
+        width: 100%;
+        display: flex;
+    }
+}
