@@ -21,6 +21,10 @@ body{
     font-size: 20px;
     margin-bottom: 40px;
 }
+ 
+#side-bar-links{
+    display: block;
+} 
 
 #sidebar-head span{
     font-weight: bold;
@@ -53,6 +57,11 @@ body{
 #side-bar a:hover i, #side-bar a:hover span{
     color: #ffffff;
 }
+
+.icon{
+    display: none;
+}
+
 
 .left-margin{
     margin-left: 200px;

@@ -9,20 +9,30 @@
     <link href="https://fonts.googleapis.com/css2?family=Alata&family=Sora&display=swap" rel="stylesheet">
     <link type="text/css" href="style.css" rel="stylesheet">
     <link type="text/css" href="responsive.css" rel="stylesheet">
+   
 </head>
 
 <body>
     <div id="side-bar">
-        <div id="sidebar-head">
-            <i class="fas fa-angle-double-right fa-fw"></i><span>Workhubs</span>
+        <div class="sidebar-item">
+            <div id="sidebar-head">
+                <i class="fas fa-angle-double-right fa-fw"></i><span>Workhubs</span>
+            </div>
+            <div id="side-bar-links">
+                <a href="#"><i class="fas fa-fw fa-vector-square"></i> <span>Dashboard</span></a>
+                <a href="#"><i class="fas fa-fw fa-briefcase"></i> <span>Jobs</span></a>
+                <a href="#"><i class="far fa-fw fa-calendar-alt"></i> <span>Schedule</span></a>
+                <a href="#"><i class="fas fa-fw fa-users"></i> <span>Community</span></a>
+                <a href="#"><i class="far fa-fw fa-comment-dots"></i> <span>Messages</span></a>
+                <a href="#"><i class="fas fa-fw fa-chart-line"></i> <span>Analysis</span></a>
+                <a href="#"><i class="fa-fw fas fa-sign-out-alt"></i> <span>Logout</span></a>
+            </div>
         </div>
-        <a href="#"><i class="fas fa-fw fa-vector-square"></i> <span>Dashboard</span></a>
-        <a href="#"><i class="fas fa-fw fa-briefcase"></i> <span>Jobs</span></a>
-        <a href="#"><i class="far fa-fw fa-calendar-alt"></i> <span>Schedule</span></a>
-        <a href="#"><i class="fas fa-fw fa-users"></i> <span>Community</span></a>
-        <a href="#"><i class="far fa-fw fa-comment-dots"></i> <span>Messages</span></a>
-        <a href="#"><i class="fas fa-fw fa-chart-line"></i> <span>Analysis</span></a>
-        <a href="#"><i class="fa-fw fas fa-sign-out-alt"></i> <span>Logout</span></a>
+       
+            <div href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fas fa-bars"></i>
+            </div>
+        
     </div>
 
     <div class="left-margin">
@@ -123,7 +133,7 @@
                         <div>Add New Task</div>
                     </div>
                 </div>
-    
+
                 <div class="main-item">
                     <div class="item-head"><span>In Progress</span><i class="fas fa-ellipsis-h"></i></div>
                     <div class="item-card pic">
@@ -169,7 +179,7 @@
                         </div>
                     </div>
                 </div>
-    
+
                 <div class="main-item">
                     <div class="item-head"><span>In Review</span><i class="fas fa-ellipsis-h"></i></div>
                     <div class="item-card">
@@ -205,7 +215,7 @@
                             <button class="task design">Design</button>
                             <button class="task research">Research</button>
                         </div>
-    
+
                         <div class="separator"></div>
                         <div class="card-footer">
                             <div class="person">
@@ -224,7 +234,7 @@
                         <div>Add New Task</div>
                     </div>
                 </div>
-    
+
                 <div class="main-item">
                     <div class="item-head"><span>Completed</span><i class="fas fa-ellipsis-h"></i></div>
                     <div class="item-card">
@@ -272,7 +282,18 @@
                 </div>
             </div>
         </div>
-        
+
     </div>
+    <script type="text/javascript">
+        function myFunction(){
+            var x = document.getElementById("side-bar-links");
+            if(x.style.display === "block"){
+                x.style.display = "none";
+            } else {
+                x.style.display = "block";
+            }
+        }
+    </script>
 </body>
+
 </html>
