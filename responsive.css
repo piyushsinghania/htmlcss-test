@@ -125,8 +125,6 @@
 }
 
 @media screen and (max-width: 407px){
-
-   
     .title{
         font-size:13px;
     }
@@ -134,6 +132,108 @@
     .searchbar input[type=text]{
         width: 70%;
     }
-    
+}
 
+@media screen and (max-width: 329px){
+    .title{
+        font-size: 11px;
+    }
+
+    #sub-nav select{
+        font-size: 16px;
+    }
+
+    .profiles{
+        width: 30px;
+        height:30px;
+        border-radius: 10px;
+    }
+
+    .new-profile{
+        width: 30px;
+        height:30px;
+        border-radius: 10px;
+    }
+
+    .menubtn{
+        font-size: 12px;
+    }
+
+    
+}
+
+@media screen and (max-width: 280px){
+    .title{
+        font-size: 9px;
+    }
+
+    .pronum{
+        font-size: 12px;
+    }
+
+    .searchbar input[type=text]{
+        width: 67%;
+    }
+
+    .new{
+        height: 40px;
+        width: 40px;
+    }
+
+    .profile-pic{
+        height: 40px;
+        width: 40px;
+        border-radius: 14px;
+    }
+
+    .profile{
+        width: 60%;
+        height: 100%;
+        align-items: 
+    }
+
+    .profile-item{
+        font-size: 11px;
+        align-items: baseline;
+        height: 38px;
+    }
+
+    .profile-item a{
+        font-size:9px;
+    }
+
+    .menubtn{
+        font-size: 10px;
+        padding: 6px 8px;
+    }
+}
+
+@media screen and (max-width: 260px){
+    .searchbar input[type=text]{
+        width: 65%;
+    }
+
+    .profile-item{
+        font-size: 10px;
+    }
+
+    #sub-nav select{
+        font-size: 15px;
+    }
+
+    .profiles{
+        width: 25px;
+        height: 25px;
+        border-radius: 8px;
+    }
+
+    .new-profile{
+        width: 25px;
+        height: 25px;
+        border-radius: 8px;
+    }
+
+    .menubtn{
+        padding: 6px 7px;
+    }
 }
